@@ -15,7 +15,7 @@
 .points{display: block;color: #333;margin-bottom: -0.3em;letter-spacing: -1px;font-weight: bold;font-size: 200%;}
 .votebox_points_lower{color: #666;font-size: 100%;text-align: center;text-transform: lowercase;}
 .idea_content{margin-left:60px;margin-bottom:10px;}
-.idea_title{font-weight:bold;font-size:150%;}
+.idea_title{font-weight:bold;font-size:150%;color:black;}
 .idea_title:hover{color:white;background:#06C;}
 .idea_lower{color:#999;}
 .idea_response{margin-top:5px;padding:5px 5px 20px 10px;background-color: #EEE;border-top: solid 1px #CCC;color: #333;}
@@ -29,3 +29,7 @@
 .comment_user{font-weight:bold;font-size:105%;display:inline;}
 .comment_user:hover{color:white;background:#06C;}
 .comment_time{float:right;color:#666;}
+#points-status{}
+#points-remaining{background:#F4940C;color:white;font-weight:bold;font-size:150%;padding:5px 0px 5px 5px}
+#points-remaining strong{font-size:170%;}
+.points-help{display:block;background:#F6A93C;padding:5px 0px 5px 5px;color:white}

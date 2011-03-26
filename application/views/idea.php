@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			<div class="comment_content">
-				<div class="comment_user"><?php echo $comment->user->userid?></div>
+				<?php echo HTML::anchor('/user/view/'.$comment->user->userid,$comment->user->userid,array('class'=>'comment_user'))?>
 				<div class="comment_text"><?php echo $comment->text?></div>
 				<div class="comment_time"><?php echo Date::fuzzy_span($comment->time);?></div>
 			</div>

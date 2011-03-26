@@ -1,10 +1,11 @@
 <?php
   /**
    * FileName.php
-   * @brief  : 
+   * @brief  : This is idea model which works using the ORM module 
+   * from Kohana. Read the Kohana docs for more information
    * @author : Capt. Nemo
-   * @date   :
-   * @version:
+   * @date   : 26 March
+   * @version: 0.1
    */
 class Model_Idea extends ORM{
 	//An idea belongs to a user
@@ -20,7 +21,7 @@ class Model_Idea extends ORM{
 	public function count_votes()
     {
 		$sum=0;
-		//Search through all the votes and commit
+		//Search through all the votes and add their weight
 		foreach($this->votes->find_all() as $vote)
 			$sum+=$vote->weight;
 		return $sum;
