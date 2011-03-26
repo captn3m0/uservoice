@@ -1,16 +1,9 @@
 index.php
-modules/auth/
-modules/cache/
-modules/codebench/
-modules/image/
-modules/unittest/
-modules/userguide/
+modules/
 system/
 application/cache/
 application/logs/
 application/messages/
-LICENCE.md
-README.md
-
+.htaccess
 
 
