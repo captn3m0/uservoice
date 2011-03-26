@@ -1,0 +1,31 @@
+#header{margin:0 auto;width:870px;}
+#logo{font-weight:bold;font-size:140%;float:left;}
+#login{float:right;}
+#container{margin: 0 auto;width:870px;-moz-border-radius: 0.8em;-webkit-border-radius: 0.8em;border: solid 1px #DDD;padding: 10px 0 20px 10px;}
+#content{width:600px;float:left;}
+#sidebar{float: right;width: 264px;}
+.clear{clear:both;}
+.tabs{}
+.tabs li {display: inline;background:#eee;}
+.tabs li {color:black;}
+.tabs li .current{color:white;}
+.votebox{min-width:50px;float:left;text-align:center;}
+.votebutton{height: auto;min-height: 2em;padding: 0;text-align: center;word-wrap: break-word;-ms-word-wrap: break-word;width: 100%;}
+.votebox_points{border: solid 1px #CCC;-moz-border-radius: 0.5em;-webkit-border-radius: 0.5em;margin-bottom: 2px;padding: 3px 0;}
+.points{display: block;color: #333;margin-bottom: -0.3em;letter-spacing: -1px;font-weight: bold;font-size: 200%;}
+.votebox_points_lower{color: #666;font-size: 100%;text-align: center;text-transform: lowercase;}
+.idea_content{margin-left:60px;margin-bottom:10px;}
+.idea_title{font-weight:bold;font-size:150%;}
+.idea_title:hover{color:white;background:#06C;}
+.idea_lower{color:#999;}
+.idea_response{margin-top:5px;padding:5px 5px 20px 10px;background-color: #EEE;border-top: solid 1px #CCC;color: #333;}
+.status-tag{background:#F0BA00;color: white;display: inline-block;font-size: 11px;font-weight: bold;letter-spacing: 0;padding: 1px 0.5em;-webkit-border-radius: 0.5em;-moz-border-radius: 0.5em;}
+.response_text{margin-top:10px;}
+.vcard{margin-top:12px;font-weight:bold;}
+.vcard img{vertical-align:middle;}
+.suggest{font-size: 120%;font-weight: bold;color: #333;margin: 15px 0 0 10;position: relative;background-color: #FFA;padding: 5px 15px;-moz-border-radius: 0.6em;-webkit-border-radius: 0.6em;}
+.comment{padding-bottom:5px;margin-top:10px;border-bottom:1px solid grey;}
+.comment_content{margin-left:60px;margin-bottom:10px;}
+.comment_user{font-weight:bold;font-size:105%;display:inline;}
+.comment_user:hover{color:white;background:#06C;}
+.comment_time{float:right;color:#666;}
