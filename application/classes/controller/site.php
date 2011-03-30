@@ -5,6 +5,7 @@
  * All our pages requiring this template
  * Copied from http://kerkness.ca/wiki/doku.php?id=template-site:extending_the_template_controller
  * Read more over there
+ * Since this is called each time, we can do lots of stuff over here!
  */
 
 class Controller_Site extends Controller_Template 
@@ -21,17 +22,15 @@ class Controller_Site extends Controller_Template
   public function before()
   {
 	  parent::before();
-
 		if ($this->auto_render)
 		{
 			// Initialize empty values
 			$this->template->title   = '';
 			$this->template->content = '';
-			
-		$this->template->styles = array();
-		$this->template->scripts = array();
-					
+			$this->template->styles = array();
+			$this->template->scripts = array();		
 		  }
+	 $this->template->logged_in_user='abhayumt';
   }
 
   /**
@@ -48,7 +47,6 @@ class Controller_Site extends Controller_Template
 			'media/css/initial.css' => 'screen, projection, print',
 			'media/css/style.css' => 'screen',
 		);
-
 		$scripts = array(
 			'media/js/jquery.js',
 		);

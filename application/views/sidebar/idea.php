@@ -7,3 +7,11 @@
 <div class="ideas">
 	<h3>Your Ideas</h3>
 </div>
+//Testing the API
+<?php
+Api::create('a','b'); 
+Api::getInstance();
+Api::getInstance();
+Api::getInstance();
+Api::getInstance();
+?>
