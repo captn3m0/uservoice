@@ -18,8 +18,8 @@
 				</div>
 				<div class="response_text"><?php echo $idea->response->text;?></div>
 				<div class="vcard">
-				  <img src="<?php echo ('/media/images/'.$idea->user->userid.'.jpg')?>" width="25">
-				  <?php echo HTML::anchor('/user/view/'.$idea->user->userid,$idea->user->userid)?>
+				  <img src="<?php echo ('/media/images/'.$idea->response->user->userid.'.jpg')?>" width="25">
+				  <?php echo HTML::anchor('/user/view/'.$idea->response->user->userid,$idea->response->user->userid)?>
 				</div>
 			</div>
 		<?php endif;?>

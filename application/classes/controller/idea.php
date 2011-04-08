@@ -23,7 +23,9 @@ Class Controller_Idea extends Controller_Site
         $this->template->content = View::factory('home');
         //Similarly set the sidebar for home page
         $this->template->sidebar = View::factory('sidebar/home');
-        $this->template->content->ideas=$idea->find_all(); //And the data that it will use.
+        $this->template->content->ideasRender = View::factory('ideas');//This view renders multiple ideas
+        $this->template->content->ideasRender->ideas=$idea->find_all(); //And the data that it will use.        
+        
     }
     /**
      * This is the action where we are inside

@@ -8,7 +8,7 @@
   </head>
   <body>
 	<div id="header">
-		<div id="logo">SDSLabs UserVoice</div>
+		<div id="logo"><a href="http://localhost/uservoice/">SDSLabs UserVoice</a></div>
 		<button id="login">Login</button>
 		<div class="clear"></div>
 	</div>

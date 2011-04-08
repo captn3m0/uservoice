@@ -6,7 +6,6 @@
    * @date   :
    * @version:
    */
-class Model_Vote extends ORM{
-	protected $_belongs_to = array('idea' => array(),'user'=>array());
-}
 ?>
+This is the users sidebar
+Display things about the user here
